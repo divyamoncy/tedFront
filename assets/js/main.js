@@ -48,8 +48,8 @@ jQuery(document).ready(function ($) {
         
           
             $(window).scroll(function () {
-                if ($(this).scrollTop() > 500) {
-                    $('.navbar').fadeIn(500);
+                if ($(this).scrollTop() > 400) {
+                    $('.navbar').fadeIn(400);
                     $('.navbar').addClass('menu-bg');
 
                 } else {
