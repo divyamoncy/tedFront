@@ -70,42 +70,5 @@ jQuery(document).ready(function ($) {
 
 
 
-    /*---------------------------------------------*
-     * Counter 
-     ---------------------------------------------*/
-
-//    $('.statistic-counter').counterUp({
-//        delay: 10,
-//        time: 2000
-//    });
-
-
-
-
-    /*---------------------------------------------*
-     * WOW
-     ---------------------------------------------*/
-
-//        var wow = new WOW({
-//            mobile: false // trigger animations on mobile devices (default is true)
-//        });
-//        wow.init();
-
-
-    /* ---------------------------------------------------------------------
-     Carousel
-     ---------------------------------------------------------------------= */
-
-//    $('.testimonials').owlCarousel({
-//        responsiveClass: true,
-//        autoplay: false,
-//        items: 1,
-//        loop: true,
-//        dots: true,
-//        autoplayHoverPause: true
-//
-//    });
-
-
-    //End
+   
 });
