@@ -485,7 +485,7 @@ textarea::-ms-input-placeholder
 }
 
 .menu-bg{
-	background:#474747;
+	background:rgba(236, 27, 46,0.8);
 }
 
 /* For Home Section */
