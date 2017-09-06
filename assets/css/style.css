@@ -491,13 +491,7 @@ textarea::-ms-input-placeholder
 /* For Home Section */
 
 .home{
-  background: url(../images/bg1.jpg) no-repeat center top fixed;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  width: 100%;
-  overflow: hidden;
+  background:black;
 }
 .home-details{
 	margin-top:50px;
