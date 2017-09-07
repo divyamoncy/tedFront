@@ -97,3 +97,7 @@ function hover(element) {
 function unhover(element) {
     element.setAttribute('src', 'assets/images/speakers/speaker.jpg');
 }
+$(".at").click(function () {
+            if ($("collapser").css('display')!='none')
+            $("collapser").click();
+        });
