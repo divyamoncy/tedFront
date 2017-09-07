@@ -489,6 +489,9 @@ textarea::-ms-input-placeholder
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #000;
 }
+.collapse navbar-collapse{
+    background:rgba(0,0,0,0.8);
+}
 
 .menu-bg{
 	background:rgba(0,0,0,0.8);
