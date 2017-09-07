@@ -19,6 +19,9 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     html {
         font-size: 90%;
     }
+  #logoText{
+        font-size:2.5em;
+    }	
    .portfolio-item {
     width: 45%;
 	}
