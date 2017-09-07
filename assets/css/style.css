@@ -618,5 +618,13 @@ textarea::-ms-input-placeholder
 }
 
 
-
+/*Hamare CSS Starts here*/
+#logoText{
+    font-family: sans-serif;
+    letter-spacing: 0.5em;
+    font-size: 3.5em;
+    width: 100%;
+    position: absolute;
+    margin-top: 185px;
+}
 
