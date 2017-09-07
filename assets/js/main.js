@@ -44,19 +44,16 @@ jQuery(document).ready(function ($) {
 	
 	var windowWidth = $(window).width();
     if (windowWidth > 757) {
-
-        
-          
-            $(window).scroll( {
+        $(window).scroll( {
         previousTop: 0
-    }, 
+               }, 
     function () {
     var currentTop = $(window).scrollTop();
     if (currentTop < this.previousTop) {
         $(".navbar").fadeIn(2);
     }
 		    else {
-			    $(".navbar").fadeOut(500);}
+			    $(".navbar").fadeOut(500);
 		     }
     this.previousTop = currentTop;
 		    
