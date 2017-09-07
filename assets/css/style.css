@@ -482,7 +482,7 @@ textarea::-ms-input-placeholder
     text-align: center;
 }
 .navbar-toggle {
-    background-color:#fff;
+    background-color:rgba(0,0,0,0.8);
     border:0;
     border-radius:0;
 }
