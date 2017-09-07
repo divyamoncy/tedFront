@@ -47,7 +47,25 @@ jQuery(document).ready(function ($) {
 
         
           
-            $(window).scroll(function () {
+            $(window).scroll( {
+        previousTop: 0
+    }, 
+    function () {
+    var currentTop = $(window).scrollTop();
+    if (currentTop < this.previousTop) {
+        $(".navbar").fadeIn(2);
+    }
+		    else {
+			    $(".navbar").fadeOut(500);}
+		     }
+    this.previousTop = currentTop;
+		    
+		    
+		    
+		    
+		    
+		    
+		    /*function () {
                 if ($(this).scrollTop() > 400) {
                     $('.navbar').fadeIn(400);
                     $('.navbar').addClass('menu-bg');
@@ -55,7 +73,7 @@ jQuery(document).ready(function ($) {
                 } else {
                     
                     $('.navbar').removeClass('menu-bg');
-                }
+                }*/
             });
         
     }
