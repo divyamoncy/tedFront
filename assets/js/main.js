@@ -72,3 +72,13 @@ jQuery(document).ready(function ($) {
 
    
 });
+
+
+//Hamare JS from here
+
+function hover(element) {
+    element.setAttribute('src', 'assets/images/speakers/speakerred.jpg');
+}
+function unhover(element) {
+    element.setAttribute('src', 'assets/images/speakers/speaker.jpg');
+}
