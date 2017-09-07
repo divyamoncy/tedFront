@@ -487,10 +487,7 @@ textarea::-ms-input-placeholder
     border-radius:0;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #000;
-}
-.collapse navbar-collapse{
-    background:rgba(0,0,0,0.8);
+    background-color: rgba(241, 241, 241 ,0.8);
 }
 
 .menu-bg{
