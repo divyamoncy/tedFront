@@ -624,6 +624,15 @@ textarea::-ms-input-placeholder
     position: absolute;
     margin-top: 185px;
 }
+#logoXCET{
+	position: absolute;
+	left:3px;
+	top :3px;
+	overflow: hidden;
+	height: 75px;
+	padding-top: 15px;
+	padding-left: 15px;
+}
 
 #collapser{
     background-color:black;
