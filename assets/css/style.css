@@ -629,3 +629,19 @@ textarea::-ms-input-placeholder
     background-color:black;
 
 }
+.z-depth-4 {
+  box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
+}
+.modal{
+    background-color: rgba(0,0,0,0.5);
+}
+.modal-content{
+    background-color: #F32727;
+}
+.modal-header{
+    border-width: 0px;
+}
+.mod{
+    font-family: 'nexa_boldregular';
+    color:white;
+}
