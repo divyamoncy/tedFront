@@ -645,3 +645,11 @@ textarea::-ms-input-placeholder
     font-family: 'nexa_boldregular';
     color:white;
 }
+input{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 3px;
+    background-color:rgb(178, 34, 34);
+    border-color: white;
+}
