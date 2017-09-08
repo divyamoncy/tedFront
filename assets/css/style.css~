@@ -487,7 +487,7 @@ textarea::-ms-input-placeholder
     border-radius:0;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #d32a20; /*MENU lines color */
+    background-color: rgba(241, 241, 241 ,0.8);
 }
 
 .menu-bg{
@@ -625,7 +625,3 @@ textarea::-ms-input-placeholder
     margin-top: 185px;
 }
 
-#collapser{
-    background-color:black;
-
-}
