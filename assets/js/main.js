@@ -27,16 +27,7 @@ jQuery(document).ready(function ($) {
     });
 	
 	
-	/*---------------------------------------------*
-     * Portfolio Pop Up Animation
-     ---------------------------------------------*/
-
-    $('.portfolio-img').magnificPopup({
-        type: 'image',
-        gallery: {
-            enabled: true
-        }
-    });
+	
 	
 	/*---------------------------------------------*
      * Menu Background Change
