@@ -655,7 +655,7 @@ textarea::-ms-input-placeholder
 
 /*Hamare CSS Starts here*/
 #logoText{
-   font-family: '33535gillsansmt';
+   font-family: 'roboto condensed';/*just testing '33535gillsansmt'*/
     letter-spacing: 1.5vw;
     font-size: 3.0vw;
     width: 100%;
