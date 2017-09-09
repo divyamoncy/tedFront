@@ -926,4 +926,5 @@ td.text-right {
   left: calc(50% - 5px);
   top: 29px;
 }
+.close{color:white; width:10px;opacity:1;}
 
