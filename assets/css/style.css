@@ -546,7 +546,7 @@ textarea::-ms-input-placeholder
 	overflow: hidden;
 }*/
 #speakers{
-	background: url(../images/bg.jpg) no-repeat center top fixed;
+	background: url(../images/swirl.jpg) no-repeat center top fixed;
 	background-size: cover;
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
@@ -555,7 +555,7 @@ textarea::-ms-input-placeholder
 	overflow: hidden;
 }
 #theme{
-	background: url(../images/bg2.jpg) no-repeat center top fixed;
+	background: url(../images/swirl.jpg) no-repeat center top fixed;
 	background-size: cover;
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
@@ -565,7 +565,7 @@ textarea::-ms-input-placeholder
 
 }
 #sponsors{
-	background: url(../images/f1.jpg) no-repeat center top fixed;
+	background: url(../images/swirl.jpg) no-repeat center top fixed;
 	background-size: cover;
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
