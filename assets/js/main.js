@@ -28,12 +28,16 @@ jQuery(document).ready(function ($) {
 /*--------------*/
 /*navicon*/
 
-     $(document).ready(function(){
+   $(document).ready(function(){
+		 var blurVal='blur(5px)';
     $("#collapser").on('click', function(){
+		
         $(this).toggleClass("open");
+		$(".sections").css('filter',blurVal);
+		if(blurVal!='blur(0px)'){blurVal='blur(0px)';}
+		else{blurVal='blur(5px)';}
         });
         });
-    
 	
 	
 	
