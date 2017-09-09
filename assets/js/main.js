@@ -25,6 +25,14 @@ jQuery(document).ready(function ($) {
             }
         }
     });
+/*navicon*/
+
+     $(document).ready(function(){
+    $("#collapser").on('click', function(){
+        $(this).toggleClass("open");
+        });
+        });
+    
 	
 	
 	
