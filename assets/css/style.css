@@ -536,7 +536,7 @@ textarea::-ms-input-placeholder
 
 /* For Portfolio Section */
 
-.portfolio{
+/*.portfolio{
 	background: url(../images/portfolio-bg.jpg) no-repeat center top fixed;
 	background-size: cover;
 	-moz-background-size: cover;
@@ -544,7 +544,38 @@ textarea::-ms-input-placeholder
 	-o-background-size: cover;
 	width: 100%;
 	overflow: hidden;
+}*/
+#speakers{
+	background: url(../images/bg.jpg) no-repeat center top fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	width: 100%;
+	overflow: hidden;
 }
+#theme{
+	background: url(../images/bg2.jpg) no-repeat center top fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	width: 100%;
+	overflow: hidden;
+
+}
+#sponsors{
+	background: url(../images/f1.jpg) no-repeat center top fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	width: 100%;
+	overflow: hidden;
+
+
+}
+
 .portfolio .title h3{
 	color:#f1f1f1;
 }
