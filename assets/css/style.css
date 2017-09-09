@@ -497,7 +497,13 @@ textarea::-ms-input-placeholder
 /* For Home Section */
 
 .home{
-  background: black;
+ background: url(../images/swirl.jpg) no-repeat center top fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	width: 100%;
+	overflow: hidden;
   
 }
 .home-details{
