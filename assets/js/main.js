@@ -25,6 +25,7 @@ jQuery(document).ready(function ($) {
             }
         }
     });
+/*--------------*/
 /*navicon*/
 
      $(document).ready(function(){
