@@ -815,7 +815,7 @@ td.text-right {
 
 /*navicon*/
 #collapser {
-  width: 60px;
+  width: 40px;
   height: 45px;
   position: relative;
   margin: 10px auto;
@@ -858,8 +858,8 @@ td.text-right {
 #collapser span {
  display: block;
   position: absolute;
-  height: 7px;
-  width: 50%;
+  height: 3px;
+  width: 40%;
   background: #d32a20;
   opacity: 1;
 
@@ -888,11 +888,11 @@ td.text-right {
 }
 
 #collapser span:nth-child(3), #collapser span:nth-child(4) {
-  top: 13px;
+  top: 10px;
 }
 
 #collapser span:nth-child(5), #collapser span:nth-child(6) {
-  top: 28px;
+  top: 20px;
 }
 
 #collapser.open span:nth-child(1),#collapser.open span:nth-child(6) {
@@ -911,12 +911,12 @@ td.text-right {
 
 #collapser.open span:nth-child(1) {
   left: 5px;
-  top: 7px;
+  top: 8px;
 }
 
 #collapser.open span:nth-child(2) {
   left: calc(50% - 5px);
-  top: 7px;
+  top: 8px;
 }
 
 #collapser.open span:nth-child(3) {
@@ -931,12 +931,12 @@ td.text-right {
 
 #collapser.open span:nth-child(5) {
   left: 5px;
-  top: 29px;
+  top: 18px;
 }
 
 #collapser.open span:nth-child(6) {
   left: calc(50% - 5px);
-  top: 29px;
+  top: 18px;
 }
 .close{color:white; width:10px;opacity:1;}
 
