@@ -830,9 +830,20 @@ td.text-right {
   cursor: pointer;
 }
 
-#blah{
-  color:white;
-  padding:30px;
+.yui{
+  text-align:justify;
+    text-justify:inter-word;
+    color:white;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.blacktext{
+  text-align:justify;
+    text-justify:inter-word;
+    color:black;
+    margin-left: 30px;
+    margin-right: 30px;
+
 }
 
 
