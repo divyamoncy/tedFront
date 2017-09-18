@@ -412,21 +412,16 @@ textarea::-ms-input-placeholder
 
 .scroll-down{
 	margin-top:100px;
-	text-transform:uppercase;
+	
 	text-align:center;
 }
 #firstScroll{
     margin-top:0px;
-    text-transform:uppercase;
+    
     text-align:center;
 }
 
-.scroll-down h5{
-	font-size:18px;
-	font-family: 'nexa_boldregular';
-	color:#f1f1f1;
-	letter-spacing:2px;
-}
+
 .scroll-down a{
 	font-size:50px;
 	color:#f1f1f1;
@@ -443,7 +438,7 @@ textarea::-ms-input-placeholder
 }
 .heading h3{
     font-size:45px;
-	text-transform:uppercase;
+	
 	letter-spacing:2px;
 }
 .heading p{
@@ -510,8 +505,7 @@ textarea::-ms-input-placeholder
 .home-details{
 	margin-top:50px;
 	color:#f1f1f1;
-	text-transform:uppercase;
-}
+	
 .home-details .logo{
 	margin-bottom:50px;
 }
@@ -602,9 +596,7 @@ textarea::-ms-input-placeholder
 
 /* For Contact Section */
 
-.contact-details{
-	text-transform:uppercase;
-}
+
 .contact-details .contact-category{
 	margin-top:30px;
 }
@@ -612,14 +604,7 @@ textarea::-ms-input-placeholder
 	font-size:25px;
 	font-family:'nexa_boldregular';
 }
-.contact-details .contact-category .mail h2{
-	font-size:50px;
-	font-family:'nexa_lightregular';
-}
-.contact-details .contact-category .phone h5{
-	font-size:40px;
-	font-family:'nexa_lightregular';
-}
+
 .contact-details .contact-category .social a {
     font-size: 26px;
     color: #202020;
@@ -809,6 +794,17 @@ td.text-center {
 
 td.text-right {
   text-align: right;
+}
+	
+	
+	
+.modalalign{
+  text-align:justify;
+    text-justify:inter-word;
+}
+#contact{
+  padding-top:50px;
+  padding-bottom:50px;
 }
 
 
