@@ -19,6 +19,12 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     html {
         font-size: 90%;
     }
+ .home-details{
+		margin-top:0px;
+		margin-bottom:0px;
+	}
+.home-details .logo{margin-bottom:0px}
+	
   #logoText{
         font-size:2.5em;
 	  letter-spacing:6vw;
