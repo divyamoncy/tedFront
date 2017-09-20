@@ -956,3 +956,10 @@ td.text-right {
 .bounce {
   animation: bounce 2s infinite;
 }
+
+#regSpan{
+	border-radius:3px;
+	padding: 10px;
+	width: 5px;
+	background-color: #cd2205;
+}
