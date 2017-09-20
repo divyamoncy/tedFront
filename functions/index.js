@@ -4,14 +4,16 @@ admin.initializeApp(functions.config().firebase);
 //nodemailer
 const nodemailer = require('nodemailer');
 var config = {
-   apiKey: "AIzaSyDvq3utO3-0lLsQgwveVAiysCRW16DQ7nM",
-   authDomain: "tedxnode.firebaseapp.com",
-   databaseURL: "https://tedxnode.firebaseio.com",
-   projectId: "tedxnode",
-   storageBucket: "tedxnode.appspot.com",
-   messagingSenderId: "114370004312"
- };
-// firebase.initializeApp(config);
+    apiKey: "AIzaSyDoxwgAzSpGoweNYZENf-hqJSu67BX6jTA",
+    authDomain: "tedxcet-44d2f.firebaseapp.com",
+    databaseURL: "https://tedxcet-44d2f.firebaseio.com",
+    projectId: "tedxcet-44d2f",
+    storageBucket: "tedxcet-44d2f.appspot.com",
+    messagingSenderId: "205375673772"
+  };
+  
+//firebase.initializeApp(config);
+
 
 // Generate test SMTP service account from ethereal.email
 // Only needed if you don't have a real mail account for testing
