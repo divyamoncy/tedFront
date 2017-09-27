@@ -11,7 +11,7 @@ var config = {
     storageBucket: "tedxcet-44d2f.appspot.com",
     messagingSenderId: "205375673772"
   };
-  
+
 //firebase.initializeApp(config);
 
 
@@ -24,15 +24,15 @@ exports.sendMail = functions.database.ref('/messages/{pushId}/email')
     let transporter = nodemailer.createTransport({
           service:'Gmail', // true for 465, false for other ports
             auth: {
-                user: "padinju@gmail.com", // generated ethereal user
-                pass: "albinantony"  // generated ethereal password
+                user: "tedxcet2017@gmail.com", // generated ethereal user
+                pass: "tedxcet2017ocaccess"  // generated ethereal password
             }
         });
         console.log('events',event.data.val());
         var email = event.data.val();
         // setup email data with unicode symbols
         let mailOptions = {
-            from: '"TEDxCET" <padinju@gmail.com>', // sender address
+            from: '"TEDxCET" <tedxcet2017@gmail.com>', // sender address
             to: email, // list of receivers
             subject: 'Hello ✔', // Subject line
             text: 'Hello world?', // plain text body
