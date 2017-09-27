@@ -455,8 +455,8 @@ textarea::-ms-input-placeholder
 .navbar-default .navbar-nav>li>a {
     color: #f1f1f1;
     text-transform: uppercase;
-	padding-top:calc((100vh - 65px)/10);/*previous value was 45px changed for making menu fullscreen*/
-	padding-bottom:calc((100vh - 65px)/10);
+	padding-top:calc((100vh - 65px)/12);/*previous value was 45px changed for making menu fullscreen*/
+	padding-bottom:calc((100vh - 65px)/12);
 	font-size:20px;
 	font-family:'roboto condensed';
 	letter-spacing:2px;
