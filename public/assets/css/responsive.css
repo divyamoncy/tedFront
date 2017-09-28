@@ -1,9 +1,6 @@
 
 
-/*
-Author: XpeedStudio
-Author URI: http://themeforest.net/user/XpeedStudio/portfolio
-*/
+
 
 /* Portrait tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -11,6 +8,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
         font-size: 15px;
     }
 	.team{height:20em;}
+	#teammem{margin-left: 50px;}
     
 
 }
@@ -40,9 +38,11 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     text-align: center;
 	}
 	.team{
-		height:20em;}
+		height:12em;}
+		#teammem{margin-left: 30px;}
 
 }
+
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
     html {
@@ -79,8 +79,10 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 		padding-bottom:5px;
 	}
    .team{
-	   height:15em;}
+	   height:12em;}
+	   #teammem{margin-left: 20px;}
 }
+
 
 
 
@@ -117,7 +119,8 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 	.heading h3{
 		font-size:25px;
 	}
-	.team{height:11em;}
+	.team{height:8em;}
+	#teammem{margin-left: 15px;}
 
 }
 
@@ -130,6 +133,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
         font-size: 60.5%;
     }
 	.team{
-	height:10em;}
+	height:8em;}
+	#teammem{margin-left:15px;}
 }
 
