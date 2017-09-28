@@ -1,164 +1,158 @@
-
-
-
-
 /* Portrait tablets and medium desktops */
+
 @media (min-width: 992px) and (max-width: 1199px) {
-    body {
-        font-size: 15px;
-    }
-	.team{height:20em;}
-	#teammem{margin-left: 50px;}
-	 #logoText{
-        font-size:5vw;
-	  letter-spacing:7vw;
-    }
-
-
+  body {
+    font-size: 15px;
+  }
+  .team {
+    height: 20em;
+  }
+  #logoText {
+    font-size: 5vw;
+    letter-spacing: 7vw;
+  }
 }
 
 /* Portrait tablets and small desktops */
-@media  (max-width: 991px) {
-    html {
-        font-size: 90%;
-    }
- .home-details{
-		margin-top:0px;
-		margin-bottom:0px;
-	}
-.home-details .logo{margin-bottom:0px}
 
-  #logoText{
-        font-size:5vw;
-	  letter-spacing:7vw;
-    }
-   .portfolio-item {
+@media (max-width: 991px) {
+  html {
+    font-size: 90%;
+  }
+  .home-details {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .home-details .logo {
+    margin-bottom: 0px
+  }
+  #logoText {
+    font-size: 5vw;
+    letter-spacing: 7vw;
+  }
+  .portfolio-item {
     width: 45%;
-	}
-	.heading p {
+  }
+  .heading p {
     line-height: 30px;
-	}
-	.about-content {
+  }
+  .about-content {
     text-align: center;
-	}
-	.team{
-		height:12em;}
-		#teammem{margin-left: 30px;}
-
+  }
+  .team {
+    height: 14em;
+  }
+  /*#teammem{margin-left: 30px;}*/
 }
 
 /* Landscape phones and portrait tablets */
+
 @media (max-width: 767px) {
-    html {
-        font-size: 80%;
-    }
-   .menu{
-     padding-bottom: 200px;
-   }
-
-   .navbar-default .navbar-nav>li>a {
-
-   	padding-top:calc((100vh - 65px)/12);/*previous value was 45px changed for making menu fullscreen*/
-   	padding-bottom:calc((100vh - 65px)/12);
-   }
-
-	.home-details .home-title h1 {
+  html {
+    font-size: 80%;
+  }
+  .menu {
+    padding-bottom: 200px;
+  }
+  .navbar-default .navbar-nav>li>a {
+    padding-top: calc((100vh - 65px)/12);
+    /*previous value was 45px changed for making menu fullscreen*/
+    padding-bottom: calc((100vh - 65px)/12);
+  }
+  .home-details .home-title h1 {
     font-size: 35px;
-	}
-
-	.about-content {
+  }
+  .about-content {
     text-align: center;
-	}
-	.portfolio-item {
+  }
+  .portfolio-item {
     width: 25%;
-	}
-	.contact-details .contact-category .mail h2 {
+  }
+  .contact-details .contact-category .mail h2 {
     font-size: 40px;
-	}
-	.contact-details .contact-category .phone h5 {
+  }
+  .contact-details .contact-category .phone h5 {
     font-size: 35px;
-	}
-	.heading p {
+  }
+  .heading p {
     line-height: 23px;
     margin-top: 30px;
-	}
-	.heading h3{
-		font-size:35px;
-	}
-	 #logoText{
-        font-size:5vw;
-	  letter-spacing:7vw;
-    }
-
-	#logoXCET{
-		height: 53px;
-		padding-top: 5px;
-		padding-left: 15px;
-		padding-bottom:5px;
-	}
-   .team{
-	   height:14em;}
-	   #teammem{margin-left: 20px;}
+  }
+  .heading h3 {
+    font-size: 35px;
+  }
+  #logoText {
+    font-size: 5vw;
+    letter-spacing: 7vw;
+  }
+  #logoXCET {
+    height: 53px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+  }
+  .team {
+    height: 14em;
+  }
+  /*#teammem{margin-left: 20px;}*/
+  .teamimg {
+    height: 200px;
+    width: 200px;
+  }
 }
-
-
-
 
 /* Landscape phones and smaller */
+
 @media (max-width: 480px) {
-    html {
-        font-size: 65%;
-    }
-     #logoText{
-        font-size:5vw;
-	  letter-spacing:8vw;
-    }
-	.home-details .home-title h1 {
-    font-size:20px;
-	}
-	.scroll-down h5 {
+  html {
+    font-size: 65%;
+  }
+  #logoText {
+    font-size: 5vw;
+    letter-spacing: 8vw;
+  }
+  .home-details .home-title h1 {
+    font-size: 20px;
+  }
+  .scroll-down h5 {
     font-size: 13px;
-	}
-
-	.portfolio-wrapper{
-		margin-left:0px;
-	}
-
-	.portfolio-item {
-    	width: 45%;
-	margin-left:0px;
-	}
-   .contact-details .contact-category .mail h2 {
-    font-size:25px;
-	}
-	.contact-details .contact-category .phone h5 {
+  }
+  .portfolio-wrapper {
+    margin-left: 0px;
+  }
+  .portfolio-item {
+    width: 45%;
+    margin-left: 0px;
+  }
+  .contact-details .contact-category .mail h2 {
+    font-size: 25px;
+  }
+  .contact-details .contact-category .phone h5 {
     font-size: 22px;
-	}
-	.copyright p {
+  }
+  .copyright p {
     font-size: 12px;
-	}
-
-	.heading h3{
-		font-size:25px;
-	}
-	.team{height:10em;}
-	#teammem{margin-left: 15px;}
-
+  }
+  .heading h3 {
+    font-size: 25px;
+  }
+  .team {
+    height: 11em;
+    margin-bottom: 150px;
+  }
+  /*#teammem{margin-left: 15px;}*/
 }
-
-
-
 @media (max-width: 320px) {
- #logoText{
-        font-size:7vw;
-	  letter-spacing:8vw;
-    }
-
-    html {
-        font-size: 60.5%;
-    }
-
-	.team{
-	height:8em;}
-	#teammem{margin-left:15px;}
+  #logoText {
+    font-size: 7vw;
+    letter-spacing: 8vw;
+  }
+  html {
+    font-size: 60.5%;
+  }
+  .team {
+    margin-bottom: 150px;
+    height: 8em;
+  }
+  /*#teammem{margin-left:15px;}*/
 }
