@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="assets/css/nexa-web-font.css" />
-  <link rel="stylesheet" href="assets/css/opensans-web-font.css" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="assets/css/nexa-web-font.css" rel="stylesheet">
+    <link href="assets/css/opensans-web-font.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/plugins.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js">
+    </script>
+    <style>
 
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/plugins.css" />
-  <link rel="stylesheet" href="assets/css/style.css">
-
-  <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-  <style>
-
-  html,
-body {
+    html,
+    body {
     background-color: #ffffff;
     font-size: 20px;
     color: #202020;
@@ -33,31 +32,44 @@ body {
     background-position: center;
     background-size: cover;
     color: #858585;
-}
+    }
 
 
-p{
-  font-size: 0.6em;
-  font-family: 'nexa_boldregular',sans-serif;
+    p{
+    font-size: 0.6em;
+    font-family: 'nexa_boldregular',sans-serif;
 
-}
+    }
 
-h4,
-.h4{
+    h4,
+    .h4{
     font-size: 0.8em;
     font-weight: bold;
     font-family: 'nexa_boldregular',sans-serif;
-}
+    }
 
 
+    .heading{font-family: 'roboto condensed', sans-serif;
+
+    /*margin:auto;
+    width:50%;
+    */
+
+    color:white ;
+    text-align:center;
+    font-size:50px;
+    font-weight: 700;
+    padding-top: 100px;
+
+    }
 
 
-
-.team
-{
+    .team
+    {
     margin-bottom:200px;
     height:20em;
-
+    /*padding-right:50px;
+    padding-left: 50px;*/
     min-height: 100%;
     border: 1px solid rgba(133,133,133,.15);
     background-color: white;
@@ -66,245 +78,350 @@ h4,
     -webkit-box-shadow: 0 0 8px rgba(0,0,0,.09);
     box-shadow: 0 0 8px rgba(0,0,0,.09);
 
-}
-.teamimg
-{
+    }
+    .teamimg
+    {
     display: block;
     margin-left: auto;
     margin-right: auto;
 
     position: relative;
     margin-top: -80px;
+    width: 250px;
 
 
-    background: #1bbc9d;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.09);
-}
-section{
-  background:white;
-  color:black;
-  font-family: 'roboto condensed',sans-serif;
-}
-footer{
-  background: white;
-  color:black;
-  font-family: 'roboto condensed',sans-serif;
-}
+    }
+    .teamimg img{
+    margin: auto;
+    width: 250px;
+    }
+    section{
+    background:white;
+    color:black;
+    font-family: 'roboto condensed',sans-serif;
+    }
+    footer{
+    background: white;
+    color:black;
+    font-family: 'roboto condensed',sans-serif;
+    }
 
-</style>
- <link rel="stylesheet" href="assets/css/responsive.css" />
-</head>
+    </style>
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    <title>
+    </title>
+  </head>
   <body>
     <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" id ="collapser" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                       <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
-                    <a class="navbar-brand" rel="home" href="index.html#home" >
-            <img id="logoXCET" src="assets/images/tedxcet.png" alt="Logo Image" />
-            </a>
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
 
-                </div>
+        <div class="navbar-header">
+          <button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1"
+          data-toggle="collapse" id="collapser" type="button"><span></span> <span></span> <span></span> <span></span>
+          <span></span> <span></span></button> <a class="navbar-brand" href="index.html#home" rel="home"><img alt=
+          "Logo Image" id="logoXCET" src="assets/images/tedxcet.png"></a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="border-color: black;">
-                    <ul class="nav navbar-nav navbar-right">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="border-color: black;">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a class="at" href="index.html#about"><!--data-toggle="modal" data-target="#regmodal">-->Home</a>
+            </li>
 
-                      <li><a href="index.html#about" class="at" ><!--data-toggle="modal" data-target="#regmodal">-->Home</a></li>
-                       <li><a href="index.html#schedule" class="at">Schedule</a></li>
-                        <li><a href="index.html#speakers" class="at">Speakers</a></li>
+            <li>
+              <a class="at" href="index.html#schedule">Schedule</a>
+            </li>
 
-                        <li><a href="index.html#location" class="at">Venue</a></li>
-            <li><a href="sponsors.html" class="at">Sponsors</a></li>
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-        </nav>
+            <li>
+              <a class="at" href="index.html#speakers">Speakers</a>
+            </li>
 
-         <div  id="teammem" style="padding-top: 200px;margin-bottom:48px;" >
-        <div class="row">
-            <div class="team col-md-3 col-sm-3 col-xs-6 ">
-                <div class="teamimg"><img src="assets/images/1/lead organiser.jpg" class="img-responsive z-depth-4 "></div>
-                <h4  class="nm" style="text-align:center;margin-bottom: 2px;margin-top: 25px;">AJU ANI JUSTUS</h4>
-                <p style="text-align:center;">LEAD ORGANISER</p>
+            <li>
+              <a class="at" href="index.html#location">Venue</a>
+            </li>
 
-            </div>
-            <div class="team col-md-3 col-sm-3 col-xs-6 ">
-                 <div class="teamimg"><img src="assets/images/1/co organizer.jpg" class="img-responsive z-depth-4 "></div>
-                <h4  class="nm" style="text-align:center;margin-bottom: 2px;margin-top: 25px;">KRISHNENDU N</h4>
-                <p style="text-align:center;">CO-ORGANISER</p>
+            <li>
+              <a class="at" href="sponsors.html">Sponsors</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
 
-            </div>
-            <div class="team col-md-3 col-sm-3 col-xs-6 ">
-               <div class="teamimg"><img src="assets/images/1/executive producer.jpg" class="img-responsive z-depth-4 "></div>
-                <h4 class="nm" style="text-align:center;margin-bottom: 2px;margin-top: 25px;">SALFAD MOIDEEN</h4>
-                <p style="text-align:center;">EXECUTIVE PRODUCER</p>
+    <h1 class="heading">
+      TEDxCET Team
+    </h1>
 
-            </div>
-
-             <div class="team col-md-3 col-sm-3 col-xs-6 ">
-                <div class="teamimg"><img src="assets/images/1/sponsorship.jpg" class="img-responsive z-depth-4 "></div>
-                <h4 class="nm" style="text-align:center;margin-bottom: 2px;margin-top: 25px;">AKSHAY NAND</h4>
-                <p style="text-align:center;">SPONSORSHIP HEAD</p>
-
-            </div></div>
-            <div class="row">
-            <div class="team col-md-3 col-sm-3 col-xs-6 ">
-                 <div class="teamimg"><img src="assets/images/1/content head.jpg" class="img-responsive z-depth-4 "></div>
-                <h4  class="nm" style="text-align:center;margin-bottom: 2px;margin-top: 25px;">LEKSHMI A.</h4>
-                <p style="text-align:center;">MEDIA & MARKETING HEAD</p>
-
-            </div>
-            <div class="team col-md-3 col-sm-3 col-xs-6 ">
-               <div class="teamimg"><img src="assets/images/1/publicity head.jpg" class="img-responsive z-depth-4 "></div>
-                <h4  class="nm" style="text-align:center;margin-bottom: 2px;margin-top: 25px;">KEVIN MATHEW</h4>
-                <p style="text-align:center;">PUBLICITY HEAD</p>
-
-            </div>
-             <div class="team col-md-3 col-sm-3 col-xs-6 ">
-               <div class="teamimg"><img src="assets/images/1/jerin.jpg" class="img-responsive z-depth-4 "></div>
-                <h4  class="nm" style="text-align:center;margin-bottom: 2px;margin-top: 25px;">JERIN MATHEW</h4>
-                <p style="text-align:center;">PUBLICITY HEAD</p>
-
-            </div>
-
-
-            <div class="team col-md-3 col-sm-3 col-xs-6">
-               <div class="teamimg"><img src="assets/images/1/curator.jpg" class="img-responsive z-depth-4 " ></div>
-                <h4  class="nm" style="text-align:center;margin-bottom: 2px;margin-top: 25px;">DIVYA SINGH</h4>
-                <p style="text-align:center;">PR & COMMUNICATION HEAD</p>
-
-               </div>
-                   </div>
-                   <div class="row">
-                   <div class="team col-md-3 col-sm-3 col-xs-6 ">
-               <div class="teamimg"><img src="assets/images/1/adwaith.jpg" class="img-responsive z-depth-4 " ></div>
-                <h4 class="nm" style="text-align:center;margin-bottom: 2px;margin-top: 25px;">ADWAITH</h4>
-                <p style="text-align:center;">PR & COMMUNICATION HEAD</p>
-
-               </div>
-               <div class="team col-md-3 col-sm-3 col-xs-6 ">
-                 <div class="teamimg"><img src="assets/images/1/website manager.jpg" class="img-responsive z-depth-4 "></div>
-                <h4 class="nm" style="text-align:center;margin-bottom: 2px;margin-top: 25px;">JASMINE BERNARD</h4>
-                <p style="text-align:center;">WEBSITE MANAGER</p>
-
-              </div>
-             <div class="team col-md-3 col-sm-3 col-xs-6 ">
-                <div class="teamimg"><img src="assets/images/1/design.jpg" class="img-responsive z-depth-4 "></div>
-                <h4 class="nm" style="text-align:center;margin-bottom: 2px;margin-top: 25px;">ROHIL NAIR</h4>
-                <p style="text-align:center;">DESIGN HEAD</p>
-
-            </div>
-
-
-              </div>
+    <div id="teammem" style="padding-top: 100px;margin-bottom:48px;padding-left: 40px;padding-right: 40px;">
+      <div class="row">
+        <div class="team col-md-3 col-sm-4 col-xs-12">
+          <div class="teamimg">
+            <img class="img-responsive z-depth-4" src="assets/images/1/lead%20organiser.jpg">
           </div>
 
+          <h4 class="nm" style="text-align:center;margin-bottom: 2px;margin-top: 25px;">
+            AJU ANI JUSTUS
+          </h4>
 
+          <p style="text-align:center;">
+            LEAD ORGANISER
+          </p>
+        </div>
 
+        <div class="team col-md-3 col-sm-4 col-xs-12">
+          <div class="teamimg">
+            <img class="img-responsive z-depth-4" src="assets/images/1/co%20organizer.jpg">
+          </div>
 
+          <h4 class="nm" style="text-align:center;margin-bottom: 2px;margin-top: 25px;">
+            KRISHNENDU N
+          </h4>
 
+          <p style="text-align:center;">
+            CO-ORGANISER
+          </p>
+        </div>
 
+        <div class="team col-md-3 col-sm-4 col-xs-12">
+          <div class="teamimg">
+            <img class="img-responsive z-depth-4" src="assets/images/1/executive%20producer.jpg">
+          </div>
 
+          <h4 class="nm" style="text-align:center;margin-bottom: 2px;margin-top: 25px;">
+            SALFAD MOIDEEN
+          </h4>
 
+          <p style="text-align:center;">
+            EXECUTIVE PRODUCER
+          </p>
+        </div>
 
+        <div class="team col-md-3 col-sm-4 col-xs-12">
+          <div class="teamimg">
+            <img class="img-responsive z-depth-4" src="assets/images/1/sponsorship.jpg">
+          </div>
 
+          <h4 class="nm" style="text-align:center;margin-bottom: 2px;margin-top: 25px;">
+            AKSHAY NAND
+          </h4>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-         <!--REGISTRATION MODAL HERE-->
-      <div id="regmodal" class="modal fade z-depth-4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
- <div class="modal-dialog">
-
-    <div class="modal-content">
-      <div class="modal-header"  >
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="false">&times;  </button>
-
-
+          <p style="text-align:center;">
+            SPONSORSHIP HEAD
+          </p>
+        </div>
       </div>
-      <div class="modal-body" style="margin:auto;" align="center">
-        <h3 class="mod" align="center">REGISTRATION</h3>
 
-        <form >
-        <span style="color:white;font-style:bold;font-family:'roboto condensed';">NAME&nbsp&nbsp&nbsp<input type ="text" placeholder="" required name="name" > </span><hr>
-        <span style="color:white;font-style:bold;font-family:'roboto condensed';">ORGANISATION&nbsp&nbsp&nbsp<input type ="text" placeholder="" required name="organisation" > </span><hr>
-        <span style="color:white;font-style:bold;font-family:'roboto condensed';">EMAIL&nbsp&nbsp&nbsp<input type="email" placeholder="" required name="email"></span><hr>
-        <span style="color:white;font-style:bold;font-family:'roboto condensed';">MOBILE&nbsp&nbsp&nbsp<input type="tel" placeholder="" required name="mobile"></span><hr>
-        <input type="submit" value="Register" class="z-depth-4" style="background-color: white;border-radius: 0px;font-color:black;font-family: 'nexa_boldregular'">
-        </form>
+      <div class="row">
+        <div class="team col-md-3 col-sm-4 col-xs-12">
+          <div class="teamimg">
+            <img class="img-responsive z-depth-4" src="assets/images/1/content%20head.jpg">
+          </div>
 
+          <h4 class="nm" style="text-align:center;margin-bottom: 2px;margin-top: 25px;">
+            LEKSHMI A.
+          </h4>
+
+          <p style="text-align:center;">
+            MEDIA & MARKETING HEAD
+          </p>
+        </div>
+
+        <div class="team col-md-3 col-sm-4 col-xs-12">
+          <div class="teamimg">
+            <img class="img-responsive z-depth-4" src="assets/images/1/publicity%20head.jpg">
+          </div>
+
+          <h4 class="nm" style="text-align:center;margin-bottom: 2px;margin-top: 25px;">
+            KEVIN MATHEW
+          </h4>
+
+          <p style="text-align:center;">
+            PUBLICITY HEAD
+          </p>
+        </div>
+
+        <div class="team col-md-3 col-sm-4 col-xs-12">
+          <div class="teamimg">
+            <img class="img-responsive z-depth-4" src="assets/images/1/jerin.jpg">
+          </div>
+
+          <h4 class="nm" style="text-align:center;margin-bottom: 2px;margin-top: 25px;">
+            JERIN MATHEW
+          </h4>
+
+          <p style="text-align:center;">
+            PUBLICITY HEAD
+          </p>
+        </div>
+
+        <div class="team col-md-3 col-sm-4 col-xs-12">
+          <div class="teamimg">
+            <img class="img-responsive z-depth-4" src="assets/images/1/curator.jpg">
+          </div>
+
+          <h4 class="nm" style="text-align:center;margin-bottom: 2px;margin-top: 25px;">
+            DIVYA SINGH
+          </h4>
+
+          <p style="text-align:center;">
+            PR & COMMUNICATION HEAD
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="team col-md-3 col-sm-4 col-xs-12">
+          <div class="teamimg">
+            <img class="img-responsive z-depth-4" src="assets/images/1/adwaith.jpg">
+          </div>
+
+          <h4 class="nm" style="text-align:center;margin-bottom: 2px;margin-top: 25px;">
+            ADWAITH
+          </h4>
+
+          <p style="text-align:center;">
+            PR & COMMUNICATION HEAD
+          </p>
+        </div>
+
+        <div class="team col-md-3 col-sm-4 col-xs-12">
+          <div class="teamimg">
+            <img class="img-responsive z-depth-4" src="assets/images/1/website%20manager.jpg">
+          </div>
+
+          <h4 class="nm" style="text-align:center;margin-bottom: 2px;margin-top: 25px;">
+            JASMINE BERNARD
+          </h4>
+
+          <p style="text-align:center;">
+            WEBSITE MANAGER
+          </p>
+        </div>
+
+        <div class="team col-md-3 col-sm-4 col-xs-12">
+          <div class="teamimg">
+            <img class="img-responsive z-depth-4" src="assets/images/1/design.jpg">
+          </div>
+
+          <h4 class="nm" style="text-align:center;margin-bottom: 2px;margin-top: 25px;">
+            ROHIL NAIR
+          </h4>
+
+          <p style="text-align:center;">
+            DESIGN HEAD
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+    <!--REGISTRATION MODAL HERE-->
 
+    <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade z-depth-4" id="regmodal" role="dialog"
+    tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button aria-hidden="false" class="close" data-dismiss="modal" type="button">&times;</button>
+          </div>
 
-<section id="contact" class="contact sections">
+          <div align="center" class="modal-body" style="margin:auto;">
+            <h3 align="center" class="mod">
+              REGISTRATION
+            </h3>
+
+            <form>
+              <span style=
+              "color:white;font-style:bold;font-family:'roboto condensed';">NAME&nbsp;&nbsp;&nbsp;<input name="name"
+              placeholder="" required="" type="text"></span>
+
+              <hr>
+              <span style=
+              "color:white;font-style:bold;font-family:'roboto condensed';">ORGANISATION&nbsp;&nbsp;&nbsp;<input name=
+              "organisation" placeholder="" required="" type="text"></span>
+
+              <hr>
+              <span style=
+              "color:white;font-style:bold;font-family:'roboto condensed';">EMAIL&nbsp;&nbsp;&nbsp;<input name="email"
+              placeholder="" required="" type="email"></span>
+
+              <hr>
+              <span style=
+              "color:white;font-style:bold;font-family:'roboto condensed';">MOBILE&nbsp;&nbsp;&nbsp;<input name=
+              "mobile" placeholder="" required="" type="tel"></span>
+
+              <hr>
+              <input class="z-depth-4" style=
+              "background-color: white;border-radius: 0px;font-color:black;font-family: 'nexa_boldregular'" type=
+              "submit" value="Register">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="contact sections" id="contact">
       <!--<div id="map" style="height:400px;width:100%;background-color:black; "></div>-->
+
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3">
             <div class="contact-details text-center">
-
-
-
               <div class="contact-category">
                 <div class="social">
-                <h6>EMAIL : tedxcet2017@gmail.com</h6>
-                <h5>CONTACT US</h5>
-<h6 style="margin-bottom:0px;">AJU ANI JUSTUS  95265 64055</h6>
-<h6 style="margin-top:0px;">KRISHNENDU N  8129457839</h6>
+                  <h6>
+                    EMAIL : tedxcet2017@gmail.com
+                  </h6>
 
-                  <h5>FOLLOW US ON SOCIAL MEDIA</h5>
-                  <a href="https://www.facebook.com/tedxcet/"><i class="fa fa-facebook"></i></a>
-                  <a href="https://twitter.com/tedxcet"><i class="fa fa-twitter"></i></a>
-                  <a href="https://www.instagram.com/tedxcet"><i class="fa fa-instagram"></i></a>
+                  <h5>
+                    CONTACT US
+                  </h5>
+
+                  <h6 style="margin-bottom:0px;">
+                    AJU ANI JUSTUS 95265 64055
+                  </h6>
+
+                  <h6 style="margin-top:0px;">
+                    KRISHNENDU N 8129457839
+                  </h6>
+
+                  <h5>
+                    FOLLOW US ON SOCIAL MEDIA
+                  </h5>
+                  <a href="https://www.facebook.com/tedxcet/"><i class="fa fa-facebook"></i></a> <a href=
+                  "https://twitter.com/tedxcet"><i class="fa fa-twitter"></i></a> <a href=
+                  "https://www.instagram.com/tedxcet"><i class="fa fa-instagram"></i></a>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
       </div>
     </section>
-    <footer id="footer" class="footer">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="copyright text-center">
-                    <p>This independent TEDx event is operated under license from TED.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </footer>
 
-  <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
-   <script src="assets/js/vendor/bootstrap.min.js"></script>
-   <script src="assets/js/plugins.js"></script>
-   <script src="assets/js/main.js"></script>
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="copyright text-center">
+              <p>
+                This independent TEDx event is operated under license from TED.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/vendor/jquery-1.11.2.min.js">
+    </script> 
+    <script src="assets/js/vendor/bootstrap.min.js">
+    </script> 
+    <script src="assets/js/plugins.js">
+    </script> 
+    <script src="assets/js/main.js">
+    </script>
   </body>
 </html>
