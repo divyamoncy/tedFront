@@ -114,50 +114,41 @@
   </head>
   <body>
     <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" id ="collapser" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                       <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <a class="navbar-brand" rel="home" href="index.html" >
+            <img id="logoXCET" src="assets/images/tedxcet.png" alt="Logo Image" />
+            </a>
 
-        <div class="navbar-header">
-          <button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1"
-          data-toggle="collapse" id="collapser" type="button"><span></span> <span></span> <span></span> <span></span>
-          <span></span> <span></span></button> <a class="navbar-brand" href="index.html#home" rel="home"><img alt=
-          "Logo Image" id="logoXCET" src="assets/images/tedxcet.png"></a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
+                </div>
 
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="border-color: black;">
-          <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a class="at" href="index.html#about"><!--data-toggle="modal" data-target="#regmodal">-->Home</a>
-            </li>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="menu collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="border-color: black; max-height: unset; height: 1px;">
+                    <ul class="nav navbar-nav navbar-right">
 
-            <li>
-              <a class="at" href="index.html#schedule">Schedule</a>
-            </li>
-
-            <li>
-              <a class="at" href="index.html#speakers">Speakers</a>
-            </li>
-
-            <li>
-              <a class="at" href="index.html#location">Venue</a>
-            </li>
-
-            <li>
-              <a class="at" href="sponsors.html">Sponsors</a>
-            </li>
-          </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-      </div>
-      <!-- /.container-fluid -->
+          <li><a href="index.html#location" class="at">Venue</a></li>
+          <li><a href="index.html#speakers" class="at">Speakers</a></li>
+          <li><a href="index.html#schedule" class="at">Schedule</a></li>
+          <li><a href="sponsors.html" class="at">Sponsors</a></li>
+          <li><a href="#" class="at" data-toggle="modal" data-target="#regmodal"><span id="regSpan" style="color: white;">Register</span></a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
     </nav>
-
     <h1 class="heading">
       TEDxCET Team
     </h1>
 
-    <div id="teammem" style="padding-top: 100px;margin-bottom:48px;padding-left: 40px;padding-right: 40px;">
+    <div class="blur" id="teammem" style="padding-top: 100px;margin-bottom:48px;padding-left: 40px;padding-right: 40px;">
       <div class="row">
         <div class="team col-md-3 col-sm-4 col-xs-12">
           <div class="teamimg">
@@ -363,7 +354,7 @@
       </div>
     </div>
 
-    <section class="contact sections" id="contact">
+    <section class="contact sections blur" id="contact">
       <!--<div id="map" style="height:400px;width:100%;background-color:black; "></div>-->
 
       <div class="container">
@@ -402,7 +393,7 @@
       </div>
     </section>
 
-    <footer class="footer" id="footer">
+    <footer class="footer blur" id="footer">
       <div class="container">
         <div class="row">
           <div class="col-md-12">

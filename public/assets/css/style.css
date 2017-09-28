@@ -174,8 +174,11 @@ p:last-child {
 Section
 */
 
-.sections {
+.blur{
   filter: blur(0px);
+}
+.sections {
+  /*filter: blur(0px);*/
   padding-top: 100px;
   padding-bottom: 100px;
   position: relative;

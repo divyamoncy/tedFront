@@ -33,7 +33,7 @@ jQuery(document).ready(function ($) {
     $("#collapser").on('click', function(){
 		
         $(this).toggleClass("open");
-		$(".sections").css('filter',blurVal);
+		$(".blur").css('filter',blurVal);
 		if(blurVal!='blur(0px)'){blurVal='blur(0px)';}
 		else{blurVal='blur(5px)';}
         });
