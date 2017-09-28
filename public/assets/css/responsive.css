@@ -10,6 +10,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     body {
         font-size: 15px;
     }
+	.team{height:20em;}
     
 
 }
@@ -38,6 +39,8 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 	.about-content {
     text-align: center;
 	}
+	.team{
+		height:20em;}
 
 }
 /* Landscape phones and portrait tablets */
@@ -75,7 +78,8 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 		padding-left: 15px;
 		padding-bottom:5px;
 	}
-   
+   .team{
+	   height:15em;}
 }
 
 
@@ -113,6 +117,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 	.heading h3{
 		font-size:25px;
 	}
+	.team{height:11em;}
 
 }
 
@@ -124,5 +129,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     html {
         font-size: 60.5%;
     }
+	.team{
+	height:10em;}
 }
 
