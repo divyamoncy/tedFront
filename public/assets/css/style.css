@@ -14,7 +14,7 @@ body {
     font-weight: 300;
 }
 /*==========================================
-PRE LOADER 
+PRE LOADER
 ==========================================*/
 .preloader {
     position: fixed;
@@ -412,12 +412,12 @@ textarea::-ms-input-placeholder
 
 .scroll-down{
 	margin-top:100px;
-	
+
 	text-align:center;
 }
 #firstScroll{
     margin-top:0px;
-    
+
     text-align:center;
 }
 
@@ -438,7 +438,7 @@ textarea::-ms-input-placeholder
 }
 .heading h3{
     font-size:45px;
-	
+
 	letter-spacing:2px;
 }
 .heading p{
@@ -455,8 +455,8 @@ textarea::-ms-input-placeholder
 .navbar-default .navbar-nav>li>a {
     color: #f1f1f1;
     text-transform: uppercase;
-	padding-top:calc((100vh - 65px)/12);/*previous value was 45px changed for making menu fullscreen*/
-	padding-bottom:calc((100vh - 65px)/12);
+	padding-top:45px;/*previous value was 45px changed for making menu fullscreen*/
+	padding-bottom:45px;
 	font-size:20px;
 	font-family:'roboto condensed';
 	letter-spacing:2px;
@@ -500,12 +500,12 @@ textarea::-ms-input-placeholder
 	-o-background-size: cover;
 	width: 100%;
 	overflow: hidden;
-  
+
 }
 .home-details{
 	margin-top:50px;
 	color:#f1f1f1;
-	
+
 }
 .home-details .logo{
 	margin-bottom:50px;
@@ -586,7 +586,7 @@ textarea::-ms-input-placeholder
 	width:17%;
 	margin-left:20px;
 	margin-bottom:20px;
-	
+
 }
 .portfolio-details{
 	width:100%;
@@ -703,7 +703,7 @@ input{
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   animation: float 5s infinite;
 }
- 
+
 th {
   color:#D5DDE5;;
   background:#1b1e24;
@@ -720,12 +720,12 @@ th {
 th:first-child {
   border-top-left-radius:3px;
 }
- 
+
 th:last-child {
   border-top-right-radius:3px;
   border-right:none;
 }
-  
+
 tr {
   border-top: 1px solid #C1C3D1;
   border-bottom-: 1px solid #C1C3D1;
@@ -734,9 +734,9 @@ tr {
   font-weight:normal;
   text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
 }
- 
 
- 
+
+
 tr:first-child {
   border-top:none;
 }
@@ -744,20 +744,20 @@ tr:first-child {
 tr:last-child {
   border-bottom:none;
 }
- 
+
 tr:nth-child(odd) td {
   background:#EBEBEB;
 }
- 
+
 
 tr:last-child td:first-child {
   border-bottom-left-radius:3px;
 }
- 
+
 tr:last-child td:last-child {
   border-bottom-right-radius:3px;
 }
- 
+
 td {
   background:#FFFFFF;
   padding:10px;
@@ -796,9 +796,9 @@ td.text-center {
 td.text-right {
   text-align: right;
 }
-	
-	
-	
+
+
+
 .modalalign{
   text-align:justify;
     text-justify:inter-word;

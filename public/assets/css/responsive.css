@@ -12,8 +12,8 @@
 	 #logoText{
         font-size:5vw;
 	  letter-spacing:7vw;
-    }	
-    
+    }
+
 
 }
 
@@ -27,11 +27,11 @@
 		margin-bottom:0px;
 	}
 .home-details .logo{margin-bottom:0px}
-	
+
   #logoText{
         font-size:5vw;
 	  letter-spacing:7vw;
-    }	
+    }
    .portfolio-item {
     width: 45%;
 	}
@@ -52,10 +52,20 @@
     html {
         font-size: 80%;
     }
+   .menu{
+     padding-bottom: 200px;
+   }
+
+   .navbar-default .navbar-nav>li>a {
+
+   	padding-top:calc((100vh - 65px)/12);/*previous value was 45px changed for making menu fullscreen*/
+   	padding-bottom:calc((100vh - 65px)/12);
+   }
+
 	.home-details .home-title h1 {
     font-size: 35px;
 	}
-	
+
 	.about-content {
     text-align: center;
 	}
@@ -78,8 +88,8 @@
 	 #logoText{
         font-size:5vw;
 	  letter-spacing:7vw;
-    }	
-	
+    }
+
 	#logoXCET{
 		height: 53px;
 		padding-top: 5px;
@@ -102,18 +112,18 @@
      #logoText{
         font-size:5vw;
 	  letter-spacing:8vw;
-    }	
+    }
 	.home-details .home-title h1 {
     font-size:20px;
 	}
 	.scroll-down h5 {
     font-size: 13px;
 	}
-	
+
 	.portfolio-wrapper{
 		margin-left:0px;
 	}
-	
+
 	.portfolio-item {
     	width: 45%;
 	margin-left:0px;
@@ -127,7 +137,7 @@
 	.copyright p {
     font-size: 12px;
 	}
-	
+
 	.heading h3{
 		font-size:25px;
 	}
@@ -142,7 +152,7 @@
  #logoText{
         font-size:7vw;
 	  letter-spacing:8vw;
-    }	
+    }
 
     html {
         font-size: 60.5%;
@@ -152,4 +162,3 @@
 	height:8em;}
 	#teammem{margin-left:15px;}
 }
-
