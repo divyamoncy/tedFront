@@ -309,48 +309,32 @@
     
     <!--REGISTRATION MODAL HERE-->
 
-    <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade z-depth-4" id="regmodal" role="dialog"
-    tabindex="-1">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button aria-hidden="false" class="close" data-dismiss="modal" type="button">&times;</button>
-          </div>
-
-          <div align="center" class="modal-body" style="margin:auto;">
-            <h3 align="center" class="mod">
-              REGISTRATION
-            </h3>
-
-            <form>
-              <span style=
-              "color:white;font-style:bold;font-family:'roboto condensed';">NAME&nbsp;&nbsp;&nbsp;<input name="name"
-              placeholder="" required="" type="text"></span>
-
-              <hr>
-              <span style=
-              "color:white;font-style:bold;font-family:'roboto condensed';">ORGANISATION&nbsp;&nbsp;&nbsp;<input name=
-              "organisation" placeholder="" required="" type="text"></span>
-
-              <hr>
-              <span style=
-              "color:white;font-style:bold;font-family:'roboto condensed';">EMAIL&nbsp;&nbsp;&nbsp;<input name="email"
-              placeholder="" required="" type="email"></span>
-
-              <hr>
-              <span style=
-              "color:white;font-style:bold;font-family:'roboto condensed';">MOBILE&nbsp;&nbsp;&nbsp;<input name=
-              "mobile" placeholder="" required="" type="tel"></span>
-
-              <hr>
-              <input class="z-depth-4" style=
-              "background-color: white;border-radius: 0px;font-color:black;font-family: 'nexa_boldregular'" type=
-              "submit" value="Register">
-            </form>
-          </div>
-        </div>
+    <div id="regmodal" class="modal fade z-depth-4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ <div class="modal-dialog">
+     
+    <div class="modal-content">
+      <div class="modal-header"  >
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="false">&times;  </button>
+       
+       
+      </div>
+      <div class="modal-body" style="margin:auto;" align="center">
+        <h3 class="mod" align="center">REGISTRATION</h3><br>
+        
+          <form id="contactForm" >
+        <span style="color:white;font-style:bold;font-family:'nexa_boldregular';">PLEASE SELECT YOUR CHOICE</span><br><br><br>
+        <span style="color:white;font-style:bold;font-family:'nexa_boldregular';">CETIAN&nbsp&nbsp&nbsp<input type ="radio" placeholder="" required name="choice" id="cetian" > </span><hr>
+        <span style="color:white;font-style:bold;font-family:'nexa_boldregular';">NON CETIAN&nbsp&nbsp&nbsp<input type="radio" placeholder="" required name="choice" id="noncetian"></span><hr>
+        
+        <input type="submit" value="Submit" class="z-depth-4" style="background-color: white;border-radius: 0px;font-color:black;font-family: 'nexa_boldregular'">
+        </form>
+        
       </div>
     </div>
+  </div>
+</div>
+
+
 
     <section class="contact sections blur" id="contact">
       <!--<div id="map" style="height:400px;width:100%;background-color:black; "></div>-->
