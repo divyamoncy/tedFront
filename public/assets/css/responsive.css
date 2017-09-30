@@ -11,9 +11,19 @@
     font-size: 5vw;
     letter-spacing: 7vw;
   }
+
+
 }
 
 /* Portrait tablets and small desktops */
+/*bug fix for team page*/
+@media (max-width: 1120px) {
+  .teamimg{
+    height: 210px;
+    width: 210px;
+  }
+}
+
 
 @media (max-width: 991px) {
   html {
@@ -41,6 +51,11 @@
   }
   .team {
     height: 14em;
+  }
+
+  .teamimg {
+    height: 200px;
+    width: 200px;
   }
   /*#teammem{margin-left: 30px;}*/
 }
