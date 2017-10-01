@@ -620,6 +620,13 @@ textarea::-ms-input-placeholder
 }
 .modal {
   background-color: rgba(0, 0, 0, 0.5);
+position: fixed;
+  max-height: 100%;
+  max-width: 100%;
+  
+}
+.modal-dialog{
+  margin-top:100px;
 }
 .modal-content {
   background-color: rgb(178, 34, 34);
