@@ -55,9 +55,11 @@ jQuery(document).ready(function ($) {
     var currentTop = $(window).scrollTop();
     if (currentTop < this.previousTop) {
         $(".navbar").fadeIn(2);
+	    $("#floating-button").fadeOut(2);
     }
 		    else {
 			    $(".navbar").fadeOut(500);
+			    $("#floating-button").fadeIn(2);
 		     }
     this.previousTop = currentTop;
 		    
