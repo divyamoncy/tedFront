@@ -166,6 +166,19 @@ $(document).ready(function(){
 
 
 
+$("#sub").click(function(e) {
+    e.preventDefault();
+    var  var1=document.getElementById("cetian");
+     var var2=document.getElementById("noncetian");
+     if(var1.checked==true)
+     {
+        window.location.href="https://goo.gl/forms/p6b9ruDOQcVMBFNu1";
+     }
+     else
+     {
+        window.location.href="https://www.yepdesk.com/tedxcet";
+     }
+});
 
 
 
@@ -234,7 +247,6 @@ function saveMessage(name, company, email, phone){
 
   });
 }
-
 
 
 
