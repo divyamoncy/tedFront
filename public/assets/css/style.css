@@ -591,6 +591,17 @@ textarea::-ms-input-placeholder
 }
 
 /*Hamare CSS Starts here*/
+#floating-button{
+  width: 55px;
+  height: 55px;
+  
+  background: transparent;
+  position: fixed;
+  bottom: 30px;
+  right: 10px;
+  cursor: pointer;
+  
+}
 
 #logoText {
   font-family: '33535gillsansmt';
