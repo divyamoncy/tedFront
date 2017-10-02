@@ -33,6 +33,23 @@
         <link rel="stylesheet" href="assets/css/responsive.css" />
 
         <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+	    
+	    
+	    <script type="text/javascript">
+    function select()
+    {
+     var1=document.getElementById("cetian");
+     var2=document.getElementById("noncetian");
+     if(var1.checked==true)
+     {
+        window.location="https://goo.gl/forms/p6b9ruDOQcVMBFNu1";
+     }
+     else
+     {
+        window.location="https://www.yepdesk.com/tedxcet";
+     }
+   }
+  </script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -444,12 +461,12 @@ It is from these age-old frames of mind that we seek change and TEDxCET is all s
       <div class="modal-body" style="margin:auto;" align="center">
         <h3 class="mod" align="center">REGISTRATION</h3><br>
         
-          <form id="contactForm" >
+          <form id="contactForm" method="post" name="regform" action="" onsubmit="select()" >
         <span style="color:white;font-style:bold;">PLEASE SELECT YOUR CHOICE</span><br><br><br>
         <span style="color:white;font-style:bold;">CETIAN&nbsp&nbsp&nbsp<input type ="radio" placeholder="" required name="choice" id="cetian" > </span><hr>
         <span style="color:white;font-style:bold;">NON CETIAN&nbsp&nbsp&nbsp<input type="radio" placeholder="" required name="choice" id="noncetian"></span><hr>
         
-        <input type="submit" value="Submit" class="z-depth-4" style="background-color: white;border-radius: 0px;font-color:black;font-family: 'nexa_boldregular'">
+        <input type="submit" value="Submit" class="z-depth-4" style="background-color: white;border-radius: 0px;color:black;font-family: 'nexa_boldregular'">
         </form>
         
       </div>
