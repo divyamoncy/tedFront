@@ -3,6 +3,8 @@
   <head>
   <meta name="theme-color" content="#000000">
   <meta charset="utf-8">
+	  <title>TEDxCET</title>
+	    <link rel="shortcut icon" href="assets/images/mini.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="assets/css/nexa-web-font.css" />
@@ -89,6 +91,21 @@ footer{
 }
 
     </style>
+	   <script type="text/javascript">
+    function select()
+    {
+     var1=document.getElementById("cetian");
+     var2=document.getElementById("noncetian");
+     if(var1.checked==true)
+     {
+        window.location="https://goo.gl/forms/p6b9ruDOQcVMBFNu1";
+     }
+     else
+     {
+        window.location="https://www.yepdesk.com/tedxcet";
+     }
+   }
+  </script>
   </head>
   <body>
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -144,12 +161,12 @@ footer{
       <div class="modal-body" style="margin:auto;" align="center">
         <h3 class="mod" align="center">REGISTRATION</h3><br>
         
-          <form id="contactForm" >
+          <form id="contactForm" method="post" name="regform" action="" onsubmit="select()">
         <span style="color:white;font-style:bold;">PLEASE SELECT YOUR CHOICE</span><br><br><br>
         <span style="color:white;font-style:bold;">CETIAN&nbsp&nbsp&nbsp<input type ="radio" placeholder="" required name="choice" id="cetian" > </span><hr>
         <span style="color:white;font-style:bold;">NON CETIAN&nbsp&nbsp&nbsp<input type="radio" placeholder="" required name="choice" id="noncetian"></span><hr>
         
-        <input type="submit" value="Submit" class="z-depth-4" style="background-color: white;border-radius: 0px;font-color:black;font-family: 'nexa_boldregular'">
+        <input type="submit" value="Submit" class="z-depth-4" style="background-color: white;border-radius: 0px;color:black;font-family: 'nexa_boldregular'">
         </form>
         
       </div>
