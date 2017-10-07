@@ -114,6 +114,49 @@
     height: 200px;
     width: 200px;
   }
+  /*New footer */
+  #footerLogo{
+	width:300px;
+	height:auto;
+	padding-left:10px;
+	
+	}
+	
+	.footRow{
+		padding-left:25px;
+		padding-top:25px;
+	}
+	.footRow h2{
+	 font-size:27px;
+	 
+	 
+	}
+	
+	.footRow h5{
+	 font-size:11px;
+	 margin-bottom:0px;
+	 
+	}
+	.footConnect i{
+	  
+	  width:30px;
+	  
+	  padding-top:10px;
+	}
+	.TedxTeam{
+	font-size:15px;
+    padding-right: 3px;
+   
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;	
+		
+	}
+	
+	.footNew{
+	
+	background-position:55vw;
+	}
 }
 
 /* Landscape phones and smaller */
