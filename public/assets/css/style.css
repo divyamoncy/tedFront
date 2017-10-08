@@ -924,36 +924,20 @@ td.text-right {
   }
   
   
-  
-  .TedxTeam{
-  
-      
-   
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 15px;
-    padding-right: 15px;
-    background-color: #d32a20;
-    border-radius: 2px;
-    color: white;
-
-  font-size: 15px;
-  
-
-    
-    
-  }
-  .TedxTeam :hover{
-  
-   color:black;
-
-    
-    
-  }
-  
   .footNew{
   
   background-size:395px;
   background-repeat:no-repeat;
   background-position:80vw;
   }
+
+    ::-moz-selection {
+       background-color: #f56363;
+       color: #000;
+}
+
+/* Works in Safari */
+::selection {
+       background-color: #f56363;
+       color: #000;
+}
