@@ -887,65 +887,73 @@ td.text-right {
 
 /*new footer style */
 #footerLogo{
-	width:450px;
-	height:113px;
-	padding-left:20px;
-	
-	}
-	
-	.footRow{
-		padding-left:45px;
-		padding-top:25px;
-	}
-	
-	.footRow h2{
-	 font-size:37px;
-	 
-	 
-	}
-	
-	.footRow h5{
-	 font-size:20px;
-	 margin-bottom:0px;
-	 
-	}
-	
-	.footConnect i{
-	  color:#d32a20;
-	  height:40px;
-	  width:40px;
-	  border-radius:50%;
-	  padding-top:20px;
-	}
-	
-	
-	
-	.TedxTeam{
-	
-    padding-right: 6px;
+  width:470px;
+  height:auto;
+  padding-left:140px;
+  
+  }
+  
+  .footRow{
+    padding-left:45px;
+    padding-top:20px;
+  }
+  
+  .footRow h2{
+   font-size:37px;
+   line-height:unset;
+   
+  }
+  
+  .footRow h5{
+   font-size:20px;
+   margin-bottom:0px;
+   line-height: unset;
+   
+  }
+  
+  .footConnect i{
+    color:black;
+    height:40px;
+    width:45px;
+    border-radius:50%;
+    padding-top:7px;
+  }
+
+  .footConnect h2{
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  .TedxTeam{
+  
+      
    
     padding-top: 6px;
     padding-bottom: 6px;
-    padding-left: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
     background-color: #d32a20;
     border-radius: 2px;
     color: white;
 
-		
-		
-	}
-	.TedxTeam :hover{
-	
+  font-size: 15px;
+  
+
+    
+    
+  }
+  .TedxTeam :hover{
+  
    color:black;
 
-		
-		
-	}
-	
-	.footNew{
-			
-	background-size:500px 500px;
-	background-repeat:no-repeat;
-	background-position:75vw;
-	}
-
+    
+    
+  }
+  
+  .footNew{
+  
+  background-size:395px;
+  background-repeat:no-repeat;
+  background-position:80vw;
+  }
