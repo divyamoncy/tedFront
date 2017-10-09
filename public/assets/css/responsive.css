@@ -63,6 +63,11 @@
   padding-left:45px;
   
   }
+  .footNew {
+    background-size: 320px;
+    background-repeat: no-repeat;
+    background-position: 76vw -6vh;
+}
   /*#teammem{margin-left: 30px;}*/
 }
 
@@ -122,33 +127,33 @@
   }
   /*New footer */
   #footerLogo{
-	width:200px;
-	height:auto;
-	padding-left:10px;
+	  width: 175px;
+    height: auto;
+    padding-left: 18px;
+  }
 	
-	}
 	
 	.footRow{
 		padding-left:25px;
 		padding-top:15px;
 	}
 	.footRow h2{
-	 font-size:27px;
+	 font-size:18px;
 	 
 	 
 	}
 	
 	.footRow h5{
-	 font-size:11px;
+	 font-size:9px;
 	 margin-bottom:0px;
 	 
 	}
 	.footConnect i{
 	  
-	  width:30px;
+	  font-size: 11px;
+    width: 20px;
     height: 0px;
-	  
-	  padding-top:7px;
+    padding-top: 7px;
 	}
   .footConnect {
     padding-left: 0px;
@@ -157,6 +162,13 @@
   .footConnect h2{
     margin-bottom: 0px;
   }
+ .footConnect button{
+    font-size: 7px;
+    width: 59px;
+    margin-bottom: 10px;
+  }
+
+
 	.TedxTeam{
 	font-size:14px;
     padding-right: 3px;
@@ -171,6 +183,8 @@
 	background-size: 315px;
 	background-position:55vw;
 	}
+
+  
 }
 
 /* Landscape phones and smaller */
