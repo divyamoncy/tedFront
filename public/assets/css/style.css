@@ -536,6 +536,7 @@ textarea::-ms-input-placeholder
   text-align: center;
 }
 .portfolio-item {
+  cursor:pointer;
   display: inline-block;
   overflow: hidden;
   width: 17%;
