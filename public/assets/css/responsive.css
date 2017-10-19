@@ -81,9 +81,9 @@
     padding-bottom: 200px;
   }
   .navbar-default .navbar-nav>li>a {
-    padding-top: calc((100vh - 65px)/12);
+    padding-top: calc((100vh - 200px)/12);
     /*previous value was 45px changed for making menu fullscreen*/
-    padding-bottom: calc((100vh - 65px)/12);
+    padding-bottom: calc((100vh - 200px)/12);
   }
   .home-details .home-title h1 {
     font-size: 35px;
