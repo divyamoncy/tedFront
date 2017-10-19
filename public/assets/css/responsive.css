@@ -68,6 +68,12 @@
     background-repeat: no-repeat;
     background-position: 76vw -6vh;
 }
+	 #logoXCET {
+    height: 53px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+  }
   /*#teammem{margin-left: 30px;}*/
 }
 
@@ -111,12 +117,7 @@
     font-size: 5vw;
     letter-spacing: 7vw;
   }
-  #logoXCET {
-    height: 53px;
-    padding-top: 5px;
-    padding-left: 15px;
-    padding-bottom: 5px;
-  }
+ 
   .team {
     height: 14em;
   }
