@@ -215,6 +215,7 @@
     margin-left: 0px;
   }
   .portfolio-item {
+    margin-bottom: 0px;
     width: 45%;
     margin-left: 0px;
   }
@@ -236,6 +237,14 @@
   }
 	.img__description {
     font-size: 12px;
+    background: linear-gradient(transparent,transparent,black);
+    color: #ffffff;
+    visibility: visible;
+    opacity: 1;
+    padding-top: 85%;
+    }
+  .modal-header img{
+    width: 175px;
   }
   /*#teammem{margin-left: 15px;}*/
 }
