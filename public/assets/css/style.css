@@ -991,6 +991,10 @@ td.text-right {
     border-color: white;
     border-radius: 0px;
 }
+
+#Regspn{
+  padding-right: 5vw;
+}
 @media (max-width: 991px) {
     .navbar-header {
         float: none;

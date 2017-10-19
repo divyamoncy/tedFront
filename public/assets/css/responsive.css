@@ -74,6 +74,9 @@
     padding-left: 15px;
     padding-bottom: 5px;
   }
+  #Regspn{
+    padding-right: 15px;
+  }
   /*#teammem{margin-left: 30px;}*/
 }
 
@@ -188,6 +191,8 @@
   .img__description {
     font-size: 11px;
   }
+
+
 }
 
 /* Landscape phones and smaller */
