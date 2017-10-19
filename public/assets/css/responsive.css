@@ -184,7 +184,9 @@
 	background-position:55vw;
 	}
 
-  
+  .img__description {
+    font-size: 11px;
+  }
 }
 
 /* Landscape phones and smaller */
@@ -226,6 +228,9 @@
     height: 11em;
     margin-bottom: 150px;
   }
+	.img__description {
+    font-size: 12px;
+  }
   /*#teammem{margin-left: 15px;}*/
 }
 @media (max-width: 320px) {
@@ -239,6 +244,9 @@
   .team {
     margin-bottom: 150px;
     height: 8em;
+  }
+	.img__description {
+    font-size: 12px;
   }
   /*#teammem{margin-left:15px;}*/
 }
