@@ -956,3 +956,30 @@ td.text-right {
 .bounce {
   animation: bounce 2s infinite;
 }
+.speaker-wrap{
+  position: relative;
+ 
+}
+.img__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0, 0.7);
+  color: #ffffff;
+  visibility: hidden;
+  opacity: 0;
+  padding-top: 70%;
+  font-size: 15px;
+  font-family: '33535gillsansmt';
+  letter-spacing: 2px;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.speaker-wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
