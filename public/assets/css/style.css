@@ -975,3 +975,19 @@ td.text-right {
   visibility: visible;
   opacity: 1;
 }
+#contactForm{padding-bottom: 30px;}
+#contactForm button{
+  
+    font-size: 22px;
+    /* border-radius: 50%; */
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 0px;
+    color: black;
+    font-family: 'roboto condensed';
+    border-width: 1px;
+    width: 120px;
+    height: 38px;
+    border-color: white;
+    border-radius: 0px;
+}
