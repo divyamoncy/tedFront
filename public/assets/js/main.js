@@ -181,6 +181,17 @@ $("#sub").click(function(e) {
         window.location.href="https://www.yepdesk.com/tedxcet";
      }
 });
+//disabling background scroll when menu is open
+ if($('#bs-example-navbar-collapse-1').is(':visible'))
+ {
+    $('body').addClass("fixedPosition");
+ }
+ else
+ {
+    $('body').removeClass("fixedPosition");
+ }
+
+
 
 
 
