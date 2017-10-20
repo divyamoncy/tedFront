@@ -266,7 +266,7 @@ Button
 /*
 Extra height css
 */
-
+/*
 .margin-top-20 {
   margin-top: 20px;
 }
@@ -317,7 +317,7 @@ Extra height css
   padding-bottom: 0;
 }
 
-/*padding*/
+
 
 .padding-twenty {
   padding: 10px 0;
@@ -334,7 +334,7 @@ Extra height css
 h1 span {
   color: #f56363;
   font-weight: 400;
-}
+}*/
 
 /*for placeholder changes*/
 
@@ -483,22 +483,8 @@ textarea::-ms-input-placeholder
 .about-content {
   margin-top: 40px;
 }
-.about-content .signature {
-  margin-top: 50px;
-}
-
-/* For Portfolio Section */
 
 
-/*.portfolio{
-  background: url(../images/portfolio-bg.jpg) no-repeat center top fixed;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  width: 100%;
-  overflow: hidden;
-}*/
 
 #speakers {
   background: url(../images/bg.jpg) no-repeat center top fixed;
@@ -1032,3 +1018,7 @@ td.text-right {
         overflow: hidden!important;
     }
 }
+.fixedPosition
+ {
+    position: fixed;
+ }
