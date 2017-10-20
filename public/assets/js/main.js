@@ -182,14 +182,14 @@ $("#sub").click(function(e) {
      }
 });
 //disabling background scroll when menu is open
- if($('#collapser').is(':visible'))
+/* if($('#collapser').is(':visible'))
  {
     $('body').addClass("fixedPosition");
  }
  else
  {
     $('body').removeClass("fixedPosition");
- }
+ }*/
 
 
 
