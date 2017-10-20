@@ -182,7 +182,7 @@ $("#sub").click(function(e) {
      }
 });
 //disabling background scroll when menu is open
- if($('#bs-example-navbar-collapse-1').is(':visible'))
+ if($('#collapser').is(':visible'))
  {
     $('body').addClass("fixedPosition");
  }
