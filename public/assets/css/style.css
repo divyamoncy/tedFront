@@ -1022,3 +1022,14 @@ td.text-right {
  {
     position: fixed;
  }
+
+
+.spText{
+  margin-left:12vw;
+  margin-right: 12vw;
+}
+
+.sponsors a img{
+    margin-bottom:100px; 
+
+  }
