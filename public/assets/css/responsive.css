@@ -251,7 +251,7 @@
     color: #ffffff;
     visibility: visible;
     opacity: 1;
-    padding-top: 85%;
+    padding-top: 83%;
     }
   .modal-header img{
     width: 175px;
@@ -276,7 +276,7 @@
     height: 8em;
   }
 	.img__description {
-    font-size: 12px;
+    font-size: 10px;
   }
   /*#teammem{margin-left:15px;}*/
 }
