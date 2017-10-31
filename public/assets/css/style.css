@@ -525,7 +525,7 @@ textarea::-ms-input-placeholder
   cursor:pointer;
   display: inline-block;
   overflow: hidden;
-  width: 17%;
+  width: 22%;
   margin-left: 20px;
   margin-bottom: 20px;
 }
