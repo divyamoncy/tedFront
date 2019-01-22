@@ -595,10 +595,11 @@ textarea::-ms-input-placeholder
   font-family: '33535gillsansmt';
   /*just testing '33535gillsansmt'*/
   letter-spacing: 1vw !important;
-  font-size: 3.0vw;
+  font-size: 5.0vw !important;
   width: 100%;
   position: absolute;
-  margin-top: 185px;
+  margin-top: 165px;
+  margin-left: -14px;
   opacity: 0.8;
 }
 #logoXCET {
