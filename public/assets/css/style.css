@@ -175,7 +175,7 @@ Section
 */
 
 .blur{
-  
+
 }
 .sections {
   /*filter: blur(0px);*/
@@ -496,7 +496,7 @@ textarea::-ms-input-placeholder
   overflow: hidden;
 }
 #theme {
-  background: url(../images/swirl.jpg) no-repeat center top fixed;
+  background: url(../images/redHelix.png) no-repeat center top fixed;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -504,8 +504,8 @@ textarea::-ms-input-placeholder
   width: 100%;
   overflow: hidden;
 }
-#sponsors {
-  background: url(../images/swirl.jpg) no-repeat center top fixed;
+#about-tedx {
+  background: url(../images/redHelix2.png) no-repeat center top fixed;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -526,6 +526,7 @@ textarea::-ms-input-placeholder
   display: inline-block;
   overflow: hidden;
   width: 22%;
+  /*height: 00px;*/
   margin-left: 20px;
   margin-bottom: 20px;
 }
@@ -935,8 +936,7 @@ td.text-right {
        color: #000;
 }
 .speaker-wrap{
-  position: relative;
- 
+  position: relative; 
 }
 .img__description {
   position: absolute;
@@ -948,6 +948,7 @@ td.text-right {
   color: #ffffff;
   visibility: hidden;
   opacity: 0;
+  color: white;
   padding-top: 70%;
   font-size: 15px;
   font-family: '33535gillsansmt';
@@ -1031,5 +1032,19 @@ td.text-right {
 
 .sponsors a img{
     margin-bottom:100px; 
-
   }
+
+.sponsors a{
+    color: red;
+}
+
+#quest{
+  background-image: url(../images/swirl.jpg);
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+  overflow: hidden;
+  color: white;
+}
