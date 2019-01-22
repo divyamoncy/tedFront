@@ -594,12 +594,12 @@ textarea::-ms-input-placeholder
 #logoText {
   font-family: '33535gillsansmt';
   /*just testing '33535gillsansmt'*/
-  letter-spacing: 2.4vw !important;
+  letter-spacing: 1.8vw !important;
   font-size: 5.0vw !important;
   width: 100%;
   position: absolute;
   margin-top: 165px;
-  margin-left: -6px;
+  margin-left: -10px;
   opacity: 0.8;
 }
 #logoXCET {
