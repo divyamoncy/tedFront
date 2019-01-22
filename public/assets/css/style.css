@@ -594,7 +594,7 @@ textarea::-ms-input-placeholder
 #logoText {
   font-family: '33535gillsansmt';
   /*just testing '33535gillsansmt'*/
-  letter-spacing: 1.5vw;
+  letter-spacing: 1vw !important;
   font-size: 3.0vw;
   width: 100%;
   position: absolute;
