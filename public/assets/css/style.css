@@ -33,6 +33,7 @@ PRE LOADER
   left: 50%;
   top: 50%;
   background-image: url(../images/loading.gif);
+  /*background-color: black;*/
   background-repeat: no-repeat;
   background-position: center;
   -moz-background-size: cover;
@@ -490,8 +491,9 @@ textarea::-ms-input-placeholder
 
 
 #speakers {
-  background: url(../images/bg.jpg) no-repeat center top fixed;
+  /*background: url(../images/bg.jpg) no-repeat center top fixed;*/
   background-size: cover;
+  background-color: black;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -499,7 +501,8 @@ textarea::-ms-input-placeholder
   overflow: hidden;
 }
 #theme {
-  background: url(../images/redHelix.png) no-repeat center top fixed;
+  /*background: url(../images/redHelix.png) no-repeat center top fixed;*/
+  background-color: black;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -508,7 +511,8 @@ textarea::-ms-input-placeholder
   overflow: hidden;
 }
 #about-tedx {
-  background: url(../images/redHelix2.png) no-repeat center top fixed;
+  /*background: url(../images/redHelix2.png) no-repeat center top fixed;*/
+  background-color: black;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -1043,7 +1047,8 @@ td.text-right {
 }
 
 #quest{
-  background-image: url(../images/swirl.jpg);
+  /*background-image: url(../images/swirl.jpg);*/
+  background-color: black;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -1052,7 +1057,6 @@ td.text-right {
   overflow: hidden;
   color: white;
 }
-
 
 
 @media only screen and (max-width: 600px) {
